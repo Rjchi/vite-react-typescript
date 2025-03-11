@@ -70,7 +70,7 @@ export const ContadorReducer = () => {
       <h2>Contador: {state.contador && state.contador}</h2>
       <div className="flex flex-row w-full justify-around">
         <button
-          className="text-white mt-2 bg-yellow-950 p-5 w-32 rounded-lg shadow-lg shadow-black"
+          className="text-white mt-2 bg-yellow-900 p-5 w-32 rounded-lg shadow-lg shadow-black"
           type="button"
           onClick={() => dispatch({ type: "incrementar" })}
         >
